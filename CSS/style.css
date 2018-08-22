@@ -1,0 +1,134 @@
+body{
+
+background-image: url('../images/herbe.jpg');
+
+}
+
+.gros_rectangle{
+	position: absolute;
+	height: 70%;
+	width: 13%;
+	border: 1px solid white;
+	top: 15%;
+	background-image: url('../images/herbe.jpg');
+	z-index: 1;
+}
+
+.gros_rectangle_gauche{
+
+left: 0%;
+}
+
+.gros_rectangle_droite{
+
+right: 0%;
+
+}
+
+
+
+
+
+.petit_rectangle{
+	position: absolute;
+	height: 30%;
+	width: 30%;
+	border: 1px solid white;
+	top: 35%;
+	z-index: 2;
+}
+
+.petit_rectangle_gauche{
+
+left: 0%;
+}
+
+.petit_rectangle_droite{
+
+right: 0%;
+
+}
+
+
+.trait_centre{
+
+	height: 100%;
+	border: 1px solid white;
+	position: absolute;
+	left: 50%;
+	top: 0%;
+}
+
+
+
+.cercle{
+position: absolute;
+height: 100px;
+width: 100px;
+border: 1px white solid;
+border-radius: 100%;
+top : 42%;
+
+}
+
+.cercle_centre{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.cercle_gauche{
+	left: 9%;
+
+
+
+}
+.cercle_droite{
+	left: 83%;
+
+
+
+}
+
+.ballon{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 25px;
+	width: 25px;
+	background-image: url('../images/bal.png');
+	transition: 0.5s;
+	z-index: 4;
+}
+.point{
+position: absolute;
+height: 1px;
+width: 1px;
+background-color: white;
+border: 1px solid white;
+border-radius: 100%;
+}
+
+
+.point_gauche{
+	left: 70%;
+	top : 50%;
+}
+
+.point_droite{
+	right: 70%;
+	top : 50%;
+}
+
+
+/* .h4{
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	transition: 1s;
+	height: 50px;
+	width: 50px;
+	background-image: url('../images/h4.png');
+	z-index: 3;
+} */
